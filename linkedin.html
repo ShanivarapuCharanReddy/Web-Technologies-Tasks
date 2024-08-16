@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linked in</title>
+    <style>
+        h1{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            font-size: xxx-large;
+        }
+        
+        
+        h3{
+            font-family:sans-serif;
+            text-align: center;
+            font-size: xx-large;
+        }
+        p{
+            font-size:small;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 550;
+            
+        }
+        
+        
+        form{
+            border: 2px solid black;
+            margin-left: 35%;
+            margin-right: 35%;
+            padding: 10px;
+        }
+        button{
+            background-color: #0077B5;
+            color: aliceblue;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            text-align: center;
+            width: 430px;
+
+        }
+        .Blue-text{
+            color: #0077B5;
+        }
+        .White-text{
+            background-color: #0077B5;
+            color: aliceblue;
+            border-radius: 4px;
+            padding-left: 5px;
+            padding-right: 5px;
+            
+
+        }
+        .blue-text{
+            color: #0077B5;
+        }
+        .blue_text{
+            color: #0077B5;
+        }
+        .textline{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            align-items: center;
+        }
+        .textline::before, .textline::after{
+            content: "";
+            height: 1px;
+            background-color: black;
+            display: block;
+        }
+        
+        img{
+            height: 15px;
+            width: 15px;
+        }
+        
+         
+        
+    </style>
+</head>
+<body>
+    <h1>Linkedin Registrtion Form</h1>
+    <h2 style=color:#0077B5;>Linked<span class="White-text">in</span></h2>
+    <h3>Make the most of your professional life</h3><br>
+
+
+    <form action="Accept and register">
+        
+        <label for="Mail">Email</label><br>
+        <input type="Text" id="Mail" name="Mail" size="59" required><br>
+        <br>
+        <label for="Password">Password(6 characters minimum)</label><br>
+        <input type="password" id="Password" name="Password" size="59" required>
+        <p>By Clicking Accept and register,you agree to the <span class="Blue-text">Terms of Use</span><br> the <span class="blue-text">Privacy Policy</span>and <span class="blue_text">cookies Policy</span>Linkedin</p>
+        
+        <button>Accept and register</button>
+        <br>
+        <br>
+        <h4 class="textline" style="text-align: center;">or</h4>
+        <button><img src="google.jpg" alt="google logo"> Sign up with Google</button>
+
+    </form>
+
+
+    
+</body>
+</html>
